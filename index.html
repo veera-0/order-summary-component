@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;500&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Oswald:wght@700&family=Secular+One&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container{
+      position: relative;
+      bottom: 80px;
+    }
+
+    .content{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: max-content;
+      text-align: center;
+      top:30%;
+      left: 35%;
+      border-radius: 0.5em;
+      /* inline-size: min-content; */
+      overflow-wrap: break-word;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,2.2);
+      transition: 0.3s;
+      background-color: hsl(225, 100%, 98%);
+    }
+
+    .matter{
+      padding: 5px;
+    }
+
+    .data{
+      inline-size: 350px;
+      overflow: break-word;
+    }
+
+    .attribution{
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+    }
+
+    h1{
+      font-size:25px;
+      font-family: 'Cormorant SC', serif;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Secular One', sans-serif;
+    }
+    p{
+      font-size: 16px;
+      font-family: 'Cormorant SC', serif;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Secular One', sans-serif;
+      font-weight:0.5px;
+    }
+
+    .cost{
+      display: flex;
+      flex-direction: row;
+      box-shadow: 0 0 0 0;
+      /* padding: 0px 0px 0 0; */
+      border-radius: 0.5em;
+      background-color: hsl(225, 100%, 94%);
+    }
+
+    .cost img{
+      width: fit-content;
+      height: fit-content;
+      /* display: block; */
+      position: absolute;
+      padding: 16px 20px 20px 10px;
+      
+    }
+
+    .box{
+      inline-size: 120px;
+      padding-left: 50px;
+    }
+
+    .button{
+      position: relative;
+      display: block;
+      margin-block-start: 30px;
+      justify-content: center;
+      background-color:hsl(245, 75%, 52%);
+      /* box-shadow: 4px 4px 4px 4px; */
+      padding: 18px 9px 10px 12px;
+      text-align: center;
+      color: white;
+      border-radius: 0.5em;
+    }
+    
+  </style>
+</head>
+<body style="background-color: hsl(225, 100%, 94%);">
+  <div class="container" style="border-radius: 10px;">
+    <img src="images/pattern-background-desktop.svg" style="width: 100%;">
+    <div class="content">
+      <img src="images/illustration-hero.svg" style="width:fit-content;height:10%;border-radius: 0.5em;">
+      <div class="matter">
+      
+        <h1>Order Summary</h1>
+
+        <p class="data">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+      
+
+        <div class="cost">
+          <img src="images/icon-music.svg">
+          <div class="box">
+            <p><span style="font-weight: bold;">Annual Plan</span>
+            $59.99/year</p>
+          </div>
+            <a href="" style="padding:2em 4em 0 4em;text-align: 40px;">Change</a>
+        </div>
+
+        <div class="button">Proceed to Payment</div>
+        <p style="font-weight: 0.5;">Cancel Order</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">veera</a>.
+  </div>
+</body>
+</html>
