@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -30,7 +30,7 @@ Users should be able to:
 ![](./Screenshot.jpg)
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
 
 ### Links
 
@@ -46,7 +46,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -54,24 +54,10 @@ By creating this order summary, I have worked with css deeply and these require 
 It's a great experience for me.
 
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Veera Anjaneyulu](https://veera-001.netlify.app/)
 
 
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
